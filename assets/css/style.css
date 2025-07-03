@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+.logo-text {
+font-family: "Fjalla One", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
 
 .fjalla {
     font-family: "Fjalla One", sans-serif;
@@ -37,29 +42,78 @@
 
 /*/  Header  /*/
 
-.logo-sm {
-    height: 120px;
-    width: 120px;
+.navbar-toggler {
+background-color: #FE6801;
+margin-right: 5px;
 }
 
 
+
+
+
+.logo-xs {
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
+
+.logo-sm {
+    height: 80px;
+    width: 80px;
+}
+
+
+
+.logo-hero {
+    height: 230px;
+    width: 230px;
+}
+
+
+
+
 header {
-    background-color: #0119FE;
+    /* background-color: #0119FE; */
+    background: linear-gradient(#0119FE 30%, #01FEE6 70%);
+    border-bottom: 3px solid #FE6801;
+    
+}
+
+
+.jcc {
+display: flex;
+justify-content: center;
+}
+
+
+.parent {
+    display: flex;
+    min-height: 320px;
+    margin: 0;
+}
+
+.child {
+    margin: auto;
 }
 
 /*/ Main  /*/
 
 main {
-    margin-top: 5px;
+    margin-top: 500px;
     background-color: #0119FE;
     margin-top: 5PX;
+    
 }
 
+.gap {
+    height: 800px;
+}
 /*/ Footer  /*/
 
 footer {
-    margin-top: 80px;
-    background-color: #FE6801;
+    border-top: 4px solid  #FE6801;
+     background: linear-gradient(#01FEE6 30%, #0119FE 70%);
+    height: 100px;
 }
 
 
@@ -88,6 +142,11 @@ https://www.canva.com/colors/color-wheel/ */
 }
 .logo-orange-bg {
     background-color: #FE6801;
+}
+
+.line-orange {
+    border: 3px solid #FE6801;
+    
 }
 
  /*/ logo Analogous dark /*/
