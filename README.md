@@ -19,9 +19,9 @@ i will attempt to add as much detail prior to the project and update as the proj
 
 ## Logo 
 
-As currently unfamiliar with image design applications i seaked assistance for a basic .png Logo with a transparent background from ChatGPT
+As currently unfamiliar with image design applications i seeked assistance for a basic .png Logo with a transparent background from ChatGPT
 i requested a modern style, featuring either dumbbells or a lightning bolt for a gym called 'Power House' with an electric blue colour. 
-i accepted the first logo created made no edits or amendments. 
+i amended the logo with an orange border and gained a second logo with the colours reveresed.
 
 ![alt text](https://github.com/gazhird/power-house/assets/image/ph-logo.png "Power house logo")
 
@@ -33,7 +33,9 @@ with this primary colour i used some of my design knowledge of 'Complementary co
 i googled searched and found a online color wheel website called 'www.canva.com'
 
 
-Here i discovered the perfect complimentary colour for my primary blue is a reddish/orange colour as seen on the image below. 
+Here i discovered the perfect complimentary colour for my primary blue is a orange colour as seen on the image below. 
+
+
 
 
 ---
@@ -56,11 +58,6 @@ Here i discovered the perfect complimentary colour for my primary blue is a redd
 - Bootstrap Reference Guide by Jacob Lett 
 
 
-
-
-
-
-Introduction 
 
 
 
