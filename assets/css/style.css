@@ -27,10 +27,6 @@ font-style: normal;
     font-style: normal;
 }
 
-.caps {
-    text-transform: uppercase;
-}
-
 
 .mt-4 {
     margin-top: 40px;
@@ -40,10 +36,17 @@ font-style: normal;
     padding-top: 40px;
 }
 
+.ml-2 {
+    margin-left: 20px;
+}
+.nop {
+    padding: 0;
+}
 
 .jcc {
 display: flex;
 justify-content: center;
+align-items: center;
 }
 
 
@@ -66,7 +69,15 @@ justify-content: center;
     background-color: #FE6801;
     margin-right: 5px;
     height: 40px;
+    border: 3px solid black;
 }
+
+    
+.navbar-toggler:hover {
+    background-color: #01FEE6;
+    border: 2px solid #FE6801;
+}
+
 
 
 
@@ -94,36 +105,10 @@ header {
 /*/ Hero  /*/
 
 .logo-hero {
-    height: 230px;
-    width: 230px;
+    height: 200px;
+    width: 200px;
 }
 
-
-#hero .box1 p {
-    font-family: "Fjalla One", sans-serif;
-    font-weight: 400;
-    color: #FE6801;
-    text-shadow: #01FEE6;
-    font-size: 180%;
-}
-
-#hero button {
-    background-color: transparent;
-    border: 2px solid #FE6801;
-}
-
-#hero button:hover {
-    background-color: #FE6801;
-    border: 2px solid black;
-}
-
-#hero button p {
-    font-family: "Fjalla One", sans-serif;
-    font-weight: 400;
-    color: black;
-    margin-bottom: 0px;
-    padding: 2px 6px;
-}
 
 .orange-bar {
 border-top: 3px solid black;
@@ -133,35 +118,71 @@ border-bottom: 3px solid black;
 }
 
 
-#demo {
-height:fit-content;
+/*/ Hero Carousel  /*/
+
+#demo p, #demo a {
+    padding-top: 10px;
+    font-family: "Fjalla One", sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/*/ Categories Image Cards (cat-boxes)  /*/
+
+#categories img {
+    width: 100%;
+    height: 220px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+
+#categories h3 {
+    padding-top: 5px;
+    font-size: 12pt;
+    color: black;
+    text-decoration: underline;
+}
+
+
+.cat-box {
+    border: 4px solid #FE6801;
+    /* border-top-left-radius: 30px 30px;
+    border-top-right-radius: 30px 30px; */
+    border-radius: 10px 10px 10px 10px;
+    margin: 20px;
+}
+
+.cat-box-bot p {
+    margin: 5px; 
+    padding: 5px; 
 }
 
 
 
 
-
-
-
-
-
-
-
-
-/*/ Main  /*/
-
-main {
-    margin-top: 500px;
-    margin-top: 5PX;
-    
+/* .inline {
+    display: ruby;
+    align-items: center;
 }
+
+
+.right {
+    position: relative;
+    left: 10%;
+} */
 
 .gap {
     height: 800px;
 }
+
+
+
+
 /*/ Footer  /*/
 
 footer {
+    margin-top: 300px;
     border-top: 4px solid  #FE6801;
      background: linear-gradient(#01FEE6 30%, #0119FE 70%);
     height: 100px;
@@ -174,7 +195,6 @@ footer {
 /* 
 
 Color Pallet via a online 'Color Wheel'
-
 https://www.canva.com/colors/color-wheel/ */
 
 
@@ -183,15 +203,15 @@ https://www.canva.com/colors/color-wheel/ */
 .logo-blue {
     color: #0197fe;
 }
-.logo-blue-bg {
+.blue-bg {
     background-color: #0197fe;
 }
 
-/*/ logo complimentry color   /*/
+/*/ logo complimentary color   /*/
 .logo-orange {
     color: #FE6801;
 }
-.logo-orange-bg {
+.orange-bg {
     background-color: #FE6801;
 }
 
@@ -204,7 +224,7 @@ https://www.canva.com/colors/color-wheel/ */
  .logo-dark {
     color: #0119FE;
  }
-  .logo-dark-bg {
+  .dark-bg {
     background-color: #0119FE;
  }
 
@@ -212,7 +232,7 @@ https://www.canva.com/colors/color-wheel/ */
  .logo-light {
     color: #01FEE6;
  }
- .logo-light-bg {
+ .light-bg {
     background-color: #01FEE6;
  }
 
@@ -220,16 +240,70 @@ https://www.canva.com/colors/color-wheel/ */
 
 
 
-/*/ Responive Media Screens   /*/
+/*/ Responsive Media Screens   /*/
 
 /* Large Screen or landscape phones */
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+    
+    .logo-hero {
+    height: 220px;
+    width: 220px;
+    }
+
+    /*/ Hero Carousel text  /*/
+    #demo p, #demo a {
+    font-size: 20px;
+    }
+
+    #categories img {
+    height: 240px; 
+    }
+
+
+}
 
 /* Tablets and larger */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+    .logo-hero {
+    height: 250px;
+    width: 250px;
+    }
+
+    /*/ Hero Carousel text  /*/
+    #demo p, #demo a {
+    font-size: 20px;
+    }
+}
 
 /* Laptops and Desktops */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+
+    /*/ Hero Carousel text  /*/
+    #demo p, #demo a {
+    font-size: 24px;
+    }
+
+
+
+
+}
 
 /* Large Desktops, Tv screens & Projectors */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+      
+    .logo-hero {
+    height: 320px;
+    width: 320px;
+    }
+
+    /*/ Hero Carousel text  /*/
+    #demo p, #demo a {
+    font-size: 26px;
+    }
+
+    #categories img {
+    width: 100%;
+    height: 300px;
+    }
+}
