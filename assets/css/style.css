@@ -49,6 +49,10 @@ justify-content: center;
 align-items: center;
 }
 
+.inline {
+display: inline-flex;
+}
+
 
 .parent {
     display: flex;
@@ -155,22 +159,30 @@ border-bottom: 3px solid black;
 
 .cat-box-bot p {
     margin: 5px; 
-    padding: 5px; 
+    padding: 5px;
+    
+}
+
+.cat-box-bot {
+padding-bottom: 10px;
+}
+
+/*/ classes /*/
+
+#categories span {
+display: none;
 }
 
 
-
-
-/* .inline {
-    display: ruby;
-    align-items: center;
+#categories table th {
+font-size: 12px;
 }
 
 
-.right {
-    position: relative;
-    left: 10%;
-} */
+.hide {
+display: none;
+}
+
 
 .gap {
     height: 800px;
@@ -183,13 +195,30 @@ border-bottom: 3px solid black;
 
 footer {
     margin-top: 300px;
+    padding-top: 10px;
     border-top: 4px solid  #FE6801;
-     background: linear-gradient(#01FEE6 30%, #0119FE 70%);
-    height: 100px;
+    background: linear-gradient(#01FEE6 30%, #0119FE 70%);
+    height: 110px;
+    padding-bottom: 10px;
 }
 
+footer #Socials li {
+    list-style-type: none;
+}
 
+footer #Socials {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 
+footer #Socials a {
+    color: black;
+    font-size: 22pt;
+    padding: 10px;
+    
+}
 
 
 /* 
@@ -259,6 +288,10 @@ https://www.canva.com/colors/color-wheel/ */
     height: 240px; 
     }
 
+    #categories table th {
+    font-size: 14px;
+    }
+
 
 }
 
@@ -273,6 +306,10 @@ https://www.canva.com/colors/color-wheel/ */
     /*/ Hero Carousel text  /*/
     #demo p, #demo a {
     font-size: 20px;
+    }
+
+    #categories table th {
+    font-size: 14px;
     }
 }
 
