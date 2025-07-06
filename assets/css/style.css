@@ -267,6 +267,19 @@ https://www.canva.com/colors/color-wheel/ */
 
 
 
+/*/ Gallery page /*/
+
+#gallery img {
+max-width: 100%;
+border-radius: 10px 10px;
+}
+
+
+
+
+
+
+
 
 
 /*/ Responsive Media Screens   /*/
