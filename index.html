@@ -37,7 +37,7 @@
                             </li>
 
                             <li class="nav-item">
-                            <a class="nav-link logo-text" href="facilities.html">facilities</a>
+                            <a class="nav-link logo-text" href="facilities.html">Facilities</a>
                             </li>
 
                             <li class="nav-item">
@@ -84,11 +84,11 @@
                                                 <p>OPEN 24 HOURS</p>
                                             </div>
                                         </div>
-                                        <div class="carousel-item">
+                                        <!-- <div class="carousel-item">
                                             <div class="jcc">
-                                                <a href="#">JOIN HERE<i class="fa-solid fa-bolt"></i></a>
+                                                <a href="#">JOIN HERE<i class="fa-solid fa-bolt"></i></a> -->
                                             </div>
-                                        </div>
+                                        </div> 
                                     </div>
                                 </div>
                         </div>
@@ -98,19 +98,32 @@
         </section>
     </header>
 
+    <main>
+        
+        <section id="join" class="jcc">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 jcc">
+                        <div class="orange-box jcc">
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#join-up-modal">Join Here <i class="fa-solid fa-bolt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
-   
-  
+        </section>
+
+
+<div id="test" >ggggg</div>
 
 
 
-    <main>                  
         <section id="categories">
                             <div class="container">
                                 <div class="row ">
 
-                                    <!-- Box 1 -->
+                                    <!-- Box 1 class times -->
                                     <div class="col-12 col-md-6 nop">
                                         <div class="cat-box">
                                             <div class="cat-box-top">
@@ -146,10 +159,10 @@
                                                         </div>
 
                                                             
-                                                                
+                                                            <!--Monday -->
                                                            <div id="mon" class="times hide">
                                                             <div class="row mt-4">
-                                                            <!--Monday -->
+                                                            
                                                                 <table>
                                                                     <tr>
                                                                         <th class="jcc">Starts - Ends</th>
@@ -202,10 +215,10 @@
                                                                     </table>
                                                                 </div>
                                                            </div>
-
+                                                           <!--Tuesday -->
                                                            <div id="tue" class="times hide" >
                                                             <div class="row mt-4">
-                                                            <!--Tuesday -->
+                                                            
                                                                 <table>
                                                                     <tr>
                                                                         <th class="jcc">Starts - Ends</th>
@@ -253,9 +266,10 @@
                                                                     </table>
                                                                 </div>
                                                            </div>
+                                                           <!--Wednesday -->
                                                             <div id="wed" class="times hide" >
                                                             <div class="row mt-4">
-                                                            <!--Wednesday -->
+                                                            
                                                                 <table>
                                                                     <tr>
                                                                         <th class="jcc">Starts - Ends</th>
@@ -308,9 +322,10 @@
                                                                     </table>
                                                                 </div>
                                                            </div>
+                                                           <!--Thursday -->
                                                             <div id="thu" class="times hide" >
                                                             <div class="row mt-4">
-                                                            <!--Thursday -->
+                                                            
                                                                 <table>
                                                                     <tr>
                                                                         <th class="jcc">Starts - Ends</th>
@@ -358,9 +373,10 @@
                                                                     </table>
                                                                 </div>
                                                            </div>
+                                                           <!--Friday -->
                                                             <div id="fri" class="times hide" >
                                                             <div class="row mt-4">
-                                                            <!--Friday -->
+                                                            
                                                                 <table>
                                                                     <tr>
                                                                         <th class="jcc">Starts - Ends</th>
@@ -413,9 +429,10 @@
                                                                     </table>
                                                                 </div>
                                                            </div>
+                                                           <!--Tuesday -->
                                                             <div id="sat" class="times hide" >
                                                             <div class="row mt-4">
-                                                            <!--Tuesday -->
+                                                            
                                                                 <table>
                                                                     <tr>
                                                                         <th class="jcc">Starts - Ends</th>
@@ -463,9 +480,10 @@
                                                                     </table>
                                                                 </div>
                                                            </div>
+                                                           <!--Sunday -->
                                                             <div id="sun" class="times hide" >
                                                            <div class="row mt-4">
-                                                            <!--Sunday -->
+                                                            
                                                                 <table>
                                                                     <tr>
                                                                         <th class="jcc">Starts - Ends</th>
@@ -693,6 +711,53 @@
             </div>
         </div>
     </footer>
+
+
+            <!-- The Modal for joining -->
+            <div class="modal fade" id="join-up-modal">
+                <div class="modal-dialog modal-dialog-centered modal-sm modal-lg">
+                    <div class="modal-content">
+                        <form id="join-form" method="get" action="index.html" >
+                        <!-- Modal Header -->
+                        <div class="modal-header ">
+                            <h4 class="modal-title">Modal Heading</h4>
+                            <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+
+                            <label for="first-name"></label><br>
+                            <input type="text" class="" placeholder="First Name" ><br>
+
+                            <label for="last-name"></label><br>
+                            <input type="text" placeholder="Last Name"><br>
+
+
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button onclick="joined()" type="submit" value="submit" class="btn" >Submit</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+                <script>
+                function joined() {
+                var joinForm = document.getElementById("join-form");
+                var name = joinForm.elements[1].value;
+
+                document.getElementById('test').textContent = "submitted"
+                sessionStorage.setItem(name);
+                }
+
+                </script>
+    
+
 
 
     <!-- Font Awesome toolkit From fontawesome.com -->

@@ -88,13 +88,11 @@ display: inline-flex;
 /*/  Header  /*/
 
 header {
-    /* background-color: #0119FE; */
     background: linear-gradient(#0119FE 30%, #01FEE6 70%);
-    /* border-bottom: 3px solid #FE6801; */
 }
 
 
-.logo-xs {
+/* .logo-xs {
     height: 60px;
     width: 60px;
     padding: 5px;
@@ -103,7 +101,7 @@ header {
 .logo-sm {
     height: 80px;
     width: 80px;
-}
+} */
 
 
 /*/ Hero  /*/
@@ -132,6 +130,60 @@ border-bottom: 3px solid black;
     font-weight: 800;
 }
 
+
+/*/ Join /*/
+
+#join {
+height: 200px;
+background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-full.jpg");
+background-size: cover; 
+background-repeat: no-repeat; 
+border-bottom: 4px solid #FE6801;
+}
+
+#join .orange-box {
+height: 100px;
+width: 180px;
+background-color: #FE6801;
+box-shadow: 5px 5px 5px black;
+border-radius: 10px 10px;
+}
+
+
+
+#join a {
+    font-family: "Fjalla One", sans-serif;
+    color: black;
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+#join-up-modal .modal-footer button, #join-up-modal .modal-header button {
+    font-family: "Fjalla One", sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FE6801;
+    border: 4px solid black;
+    min-width: 90px;
+}
+
+
+#join-up-modal .modal-header {
+    width: 100%;
+    background-color: #FE6801;
+    border-bottom: 4px solid black;
+}
+
+#join-up-modal .modal-header h4 {
+    font-family: "Fjalla One", sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
 /*/ Categories Image Cards (cat-boxes)  /*/
 
 #categories img {
@@ -139,11 +191,14 @@ border-bottom: 3px solid black;
     height: 220px;
     border-top-left-radius: 10px 10px;
     border-top-right-radius: 10px 10px;
+    
 }
 
 #categories h3 {
-    padding-top: 5px;
+    padding-top: 8px;
+    font-family: "Fjalla One", sans-serif;
     font-size: 12pt;
+    font-weight: 800;
     color: black;
     text-decoration: underline;
 }
@@ -151,16 +206,19 @@ border-bottom: 3px solid black;
 
 .cat-box {
     border: 4px solid #FE6801;
-    /* border-top-left-radius: 30px 30px;
-    border-top-right-radius: 30px 30px; */
     border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px black;
     margin: 20px;
+}
+
+.cat-box-mid {
+    background-color: #FE6801;
+    
 }
 
 .cat-box-bot p {
     margin: 5px; 
     padding: 5px;
-    
 }
 
 .cat-box-bot {
@@ -179,13 +237,13 @@ font-size: 12px;
 }
 
 
-.hide {
-display: none;
-}
 
 
-.gap {
-    height: 800px;
+/*/ Facilities page /*/
+
+#gallery img {
+max-width: 100%;
+border-radius: 10px 10px;
 }
 
 
@@ -267,14 +325,6 @@ https://www.canva.com/colors/color-wheel/ */
 
 
 
-/*/ Gallery page /*/
-
-#gallery img {
-max-width: 100%;
-border-radius: 10px 10px;
-}
-
-
 
 
 
@@ -305,6 +355,12 @@ border-radius: 10px 10px;
     font-size: 14px;
     }
 
+    #join {
+        height: 200px;
+        background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-bar.jpg");
+        }
+
+
 
 }
 
@@ -323,6 +379,10 @@ border-radius: 10px 10px;
 
     #categories table th {
     font-size: 14px;
+    }
+    #join {
+    height: 280px;
+    background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-bar.jpg");
     }
 }
 
@@ -356,4 +416,9 @@ border-radius: 10px 10px;
     width: 100%;
     height: 300px;
     }
+
+    #join {
+        height: 420px;
+        background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-bar.jpg");
+        }
 }
