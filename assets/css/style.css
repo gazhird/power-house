@@ -28,20 +28,10 @@ font-style: normal;
 }
 
 
-.mt-4 {
-    margin-top: 40px;
-}
-
-.pt-4 {
-    padding-top: 40px;
-}
-
-.ml-2 {
-    margin-left: 20px;
-}
-.nop {
-    padding: 0;
-}
+.mt-4 {margin-top: 40px;}
+.pt-4 {padding-top: 40px;}
+.ml-2 {margin-left: 20px;}
+.nop {padding: 0;}
 
 .jcc {
 display: flex;
@@ -56,15 +46,23 @@ display: inline-flex;
 
 .parent {
     display: flex;
-    min-height: 320px;
+    min-height: 200px;
     margin: 0;
 }
 
 .child {
-    margin: auto;
+    margin-top: 60%;
 }
 
 
+
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
 
 
 /*/  Navbar  /*/
@@ -86,29 +84,28 @@ display: inline-flex;
 
 
 /*/  Header  /*/
-
+/* background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-full.jpg"); */
 header {
-    background: linear-gradient(#0119FE 30%, #01FEE6 70%);
+    height: 300px;
+    background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-full.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
 }
-
-
-/* .logo-xs {
-    height: 60px;
-    width: 60px;
-    padding: 5px;
-}
-
-.logo-sm {
-    height: 80px;
-    width: 80px;
-} */
 
 
 /*/ Hero  /*/
 
-.logo-hero {
-    height: 200px;
-    width: 200px;
+#hero {
+height: 200px;
+}
+
+
+#hero .orange-box {
+height: 90px;
+width: 160px;
+background-color: #FE6801;
+box-shadow: 5px 5px 5px black;
+border-radius: 10px 10px;
 }
 
 
@@ -135,23 +132,16 @@ border-bottom: 3px solid black;
 
 #join {
 height: 200px;
-background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-full.jpg");
+background-image: url(../images/gym-outside.jpg);
 background-size: cover; 
-background-repeat: no-repeat; 
+background-repeat: no-repeat;
 border-bottom: 4px solid #FE6801;
 }
 
-#join .orange-box {
-height: 100px;
-width: 180px;
-background-color: #FE6801;
-box-shadow: 5px 5px 5px black;
-border-radius: 10px 10px;
-}
 
 
 
-#join a {
+#hero a {
     font-family: "Fjalla One", sans-serif;
     color: black;
     font-size: 22px;
@@ -159,7 +149,15 @@ border-radius: 10px 10px;
     margin: 0px;
 }
 
-#join-up-modal .modal-footer button, #join-up-modal .modal-header button {
+#hero p {
+    font-family: "Fjalla One", sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+#join-up-modal .modal-footer .footer-btn, #join-up-modal .modal-header button {
     font-family: "Fjalla One", sans-serif;
     color: black;
     font-size: 16px;
@@ -169,6 +167,14 @@ border-radius: 10px 10px;
     min-width: 90px;
 }
 
+#join-up-modal input {
+    border-color: #FE6801;
+}
+
+
+#join-up-modal .modal-header button {
+    background-color: white;
+}
 
 #join-up-modal .modal-header {
     width: 100%;
@@ -241,18 +247,11 @@ font-size: 12px;
 
 /*/ Facilities page /*/
 
-#gallery img {
-max-width: 100%;
-border-radius: 10px 10px;
-}
-
-
-
 
 /*/ Footer  /*/
 
 footer {
-    margin-top: 300px;
+    margin-top: 30px;
     padding-top: 10px;
     border-top: 4px solid  #FE6801;
     background: linear-gradient(#01FEE6 30%, #0119FE 70%);
@@ -337,6 +336,12 @@ https://www.canva.com/colors/color-wheel/ */
 /* Large Screen or landscape phones */
 @media screen and (min-width: 576px) {
     
+
+    header {
+    height: 320px;
+    background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-bar.jpg");
+    }
+
     .logo-hero {
     height: 220px;
     width: 220px;
@@ -355,10 +360,7 @@ https://www.canva.com/colors/color-wheel/ */
     font-size: 14px;
     }
 
-    #join {
-        height: 200px;
-        background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-bar.jpg");
-        }
+   
 
 
 
@@ -366,6 +368,11 @@ https://www.canva.com/colors/color-wheel/ */
 
 /* Tablets and larger */
 @media screen and (min-width: 768px) {
+
+    #header {
+    height: 280px;
+    background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-bar.jpg");
+    }
 
     .logo-hero {
     height: 250px;
@@ -380,10 +387,7 @@ https://www.canva.com/colors/color-wheel/ */
     #categories table th {
     font-size: 14px;
     }
-    #join {
-    height: 280px;
-    background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-bar.jpg");
-    }
+    
 }
 
 /* Laptops and Desktops */
@@ -401,7 +405,12 @@ https://www.canva.com/colors/color-wheel/ */
 
 /* Large Desktops, Tv screens & Projectors */
 @media screen and (min-width: 1200px) {
-      
+    
+    #header {
+    height: 420px;
+    background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-bar.jpg");
+    }
+
     .logo-hero {
     height: 320px;
     width: 320px;
@@ -417,8 +426,5 @@ https://www.canva.com/colors/color-wheel/ */
     height: 300px;
     }
 
-    #join {
-        height: 420px;
-        background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-bar.jpg");
-        }
+    
 }
