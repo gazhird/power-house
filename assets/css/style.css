@@ -98,6 +98,10 @@ header {
     background-repeat: no-repeat; 
 }
 
+header nav .nav-item a:hover {
+ color: #FE6801;
+}
+
 
 /*/ Hero  /*/
 
@@ -107,8 +111,8 @@ height: 200px;
 
 
 #hero .orange-box {
-height: 90px;
-width: 160px;
+height: 70px;
+width: 130px;
 background-color: #FE6801;
 box-shadow: 5px 5px 5px black;
 border-radius: 10px 10px;
@@ -273,7 +277,7 @@ footer {
     margin-top: 30px;
     padding-top: 10px;
     border-top: 4px solid  #FE6801;
-    background: linear-gradient(#01FEE6 30%, #0119FE 70%);
+    background: linear-gradient(#0197fe 30%, #FE6801 70%);
     height: 110px;
     padding-bottom: 10px;
 }
