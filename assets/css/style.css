@@ -372,9 +372,9 @@ https://www.canva.com/colors/color-wheel/ */
     }
 
     #categories img {
-    height: 240px; 
+    width: 100%;
+    height: auto;
     }
-
     #categories table th {
     font-size: 14px;
     }
@@ -406,6 +406,11 @@ https://www.canva.com/colors/color-wheel/ */
     #categories table th {
     font-size: 14px;
     }
+
+    #categories img {
+    width: 100%;
+    height: auto;
+    }
     
 }
 
@@ -417,7 +422,10 @@ https://www.canva.com/colors/color-wheel/ */
     font-size: 24px;
     }
 
-
+    #categories img {
+    width: 100%;
+    height: auto;
+    }
 
 
 }
@@ -426,7 +434,7 @@ https://www.canva.com/colors/color-wheel/ */
 @media screen and (min-width: 1200px) {
     
     #header {
-    height: 420px;
+    height: auto;
     background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-bar.jpg");
     }
 
@@ -442,7 +450,7 @@ https://www.canva.com/colors/color-wheel/ */
 
     #categories img {
     width: 100%;
-    height: 300px;
+    height: auto;
     }
 
     
