@@ -262,8 +262,7 @@ margin-left: 0px;
 /*/ Facilities Page /*/
 
 #discount {
-height: 280px;
-    background-color: #0197fe;
+background-color: #0197fe;
 border-bottom: 4px solid #FE6801;
 }
 
@@ -305,18 +304,24 @@ border-bottom: 4px solid #FE6801;
     font-size: 14px;
     font-weight: 500;
     height: 50px;
-    border-radius: 10px 10px;;
+    border-radius: 10px 10px;
     border: 3px solid black;
 }
 
-/*/ Falcilities boxes  /*/
+#discount .discount-join {
+    padding-bottom: 60px;
+}
+
+/*/ Facilities boxes  /*/
 
 #facilities .facilities-box {
-    height: 200px;
+    margin-top: -30px;
+    z-index: 1;
     width: 100%;
     border-radius: 10px 10px;
     border: 4px solid black;
-    background-color: #f7f7f7e;
+    background-color: #f8f9fa;
+    margin-bottom: 50px;
 }
 
 /*/ Footer  /*/
