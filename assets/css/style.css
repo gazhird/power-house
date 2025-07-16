@@ -9,11 +9,25 @@
     box-sizing: border-box;
 }
 
-.logo-text {
+header nav .logo-text {
 font-family: "Fjalla One", sans-serif;
 font-weight: 900;
 font-style: normal;
 }
+
+header nav .nav-item a {
+font-family: "Bebas Neue", sans-serif;
+font-size: 18px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: 1px;
+} 
+
+header nav {
+    background-color: #FE6801;
+    border-bottom: 3px solid black;
+}
+
 
 .fjalla {
     font-family: "Fjalla One", sans-serif;
@@ -53,7 +67,7 @@ display: inline-flex;
 }
 
 .child {
-    margin-top: 75%;
+    margin-top: 120%;
 }
 
 .ruby {display: ruby;}
@@ -104,7 +118,7 @@ header nav .nav-item a:hover {
 /*/ Hero  /*/
 
 #hero {
-height: 200px;
+height: auto;
 }
 
 
@@ -239,7 +253,7 @@ border-bottom: 4px solid #FE6801;
 padding-bottom: 10px;
 }
 
-/*/ classes box 1 /*/
+/*/ Categories 'classes' box 1 /*/
 
 #categories #classes span {
 display: none;
@@ -255,15 +269,15 @@ font-size: 12px;
 
 
 #categories #other p {
-padding-left: 10px;
-margin-left: 0px;
+    padding-left: 10px;
+    margin-left: 0px;
 }
 
-/*/ Facilities Page /*/
+/*/// discount section all Pages //*/
 
 #discount {
-background-color: #0197fe;
-border-bottom: 4px solid #FE6801;
+    background-color: #0197fe;
+    border-bottom: 4px solid #FE6801;
 }
 
 
@@ -276,13 +290,12 @@ border-bottom: 4px solid #FE6801;
     color: #FE6801;
     text-shadow: 4px 2px black;
     letter-spacing: 2px;
-    
 }
 
 #discount .discount-text p {
     padding: 20px;
     font-family: "Fjalla One", sans-serif;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 300;
     text-align: center;
 }
@@ -290,18 +303,19 @@ border-bottom: 4px solid #FE6801;
 #discount .discount-price h3 {
     padding-top: 12px;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 14pt;
+    font-size: 16pt;
     font-weight: 800;
     color: black;
     letter-spacing: 2px;
 }
 
 #discount .discount-join button {
+    margin: 20px 0px;
     padding: 5px 5px;
     background-color: #FE6801;
     font-family: "Fjalla One", sans-serif;
     color: black;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     height: 50px;
     border-radius: 10px 10px;
@@ -309,7 +323,7 @@ border-bottom: 4px solid #FE6801;
 }
 
 #discount .discount-join {
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 
 /*/ Facilities boxes  /*/
@@ -322,7 +336,25 @@ border-bottom: 4px solid #FE6801;
     border: 4px solid black;
     background-color: #f8f9fa;
     margin-bottom: 50px;
+    box-shadow: 2px 2px 5px #FE6801;
+
 }
+
+#facilities .facilities-box h2 {
+    padding-top: 12px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 16pt;
+    font-weight: 800;
+    color: black;
+    letter-spacing: 2px;
+ }
+
+ #facilities .facilities-box p {
+    padding: 5px 10px;
+ }
+
+
+
 
 /*/ Footer  /*/
 
@@ -469,6 +501,11 @@ https://www.canva.com/colors/color-wheel/ */
     width: 100%;
     height: auto;
     }
+
+    #discount h1 {
+    font-size: 28pt;
+    }
+
     
 }
 
@@ -511,5 +548,19 @@ https://www.canva.com/colors/color-wheel/ */
     height: auto;
     }
 
+    #discount h1 {
+    font-size: 32pt;
+    }
     
+    #discount .discount-text p {
+    font-size: 20px;
+    }
+
+    #discount .discount-price h3 {
+    font-size: 20pt;
+    }
+
+    #discount .discount-join button {
+    font-size: 20px;
+    }
 }
