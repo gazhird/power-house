@@ -38,7 +38,7 @@
 
 .parent {
     display: flex;
-    min-height: 400px;
+    min-height: 265px;
     margin: 0;
 }
 
@@ -451,6 +451,11 @@ footer #Socials a {
     height: 250px;
     width: 250px;
     }
+
+    .parent {
+    min-height: 280px;
+    }
+
 
     /*/ Hero Carousel text  /*/
     #demo p, #demo a {
