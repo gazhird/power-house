@@ -208,44 +208,53 @@
 
         <div class="container">
             <div class="row">
-                <!-- <div class="col-2"></div> -->
                 <div class="col-12">
                     
                     <div class="photo-library"> 
 
                         <div class="photo-box">
                             <img  id="image-1"  onclick="nextImg(2)" src="./assets/images/facilities/gym-outside.jpg" alt="Outside the gym">
-                            <img  id="image-2"  onclick="nextImg(3)"  src="./assets/images/facilities/pool-1.jpg" style="display: none;" alt="swimming pool 1">
-                            <img  id="image-3"  onclick="nextImg(4)"  src="./assets/images/facilities/pool-2.jpg" style="display: none;" alt="swimming pool 1">
-                            <img  id="image-4"  onclick="nextImg(5)"  src="./assets/images/facilities/pool-3.jpg" style="display: none;" alt="swimming pool 1">
-                            <img  id="image-5"  onclick="nextImg(6)"  src="./assets/images/facilities/sports-1.jpg" style="display: none;" alt="swimming pool 1">
-                            <img  id="image-6"  onclick="nextImg(1)"  src="./assets/images/facilities/sports-2.jpg" style="display: none;" alt="swimming pool 1">
+                            <img  id="image-2"  onclick="nextImg(3)"  src="./assets/images/facilities/pool-2.jpg" style="display: none;" alt="swimming pool 1">
+                            <img  id="image-3"  onclick="nextImg(4)"  src="./assets/images/facilities/pool-3.jpg" style="display: none;" alt="swimming pool 2">
+                            <img  id="image-4"  onclick="nextImg(5)"  src="./assets/images/facilities/treadmill.jpg" style="display: none;" alt="treadmill">
+                            <img  id="image-5"  onclick="nextImg(6)"  src="./assets/images/facilities/class-1.jpg" style="display: none;" alt="fitness class l">
+                            <img  id="image-6"  onclick="nextImg(7)"  src="./assets/images/facilities/class-2.jpg" style="display: none;" alt="fitness class 2">
+                            <img  id="image-7"  onclick="nextImg(8)"  src="./assets/images/facilities/gym-1.jpg" style="display: none;" alt="inside gym 1">
+                            <img  id="image-8"  onclick="nextImg(9)"  src="./assets/images/facilities/gym-2.jpg" style="display: none;" alt="inside gym 2">
+
+
+
+                            <img  id="image-9"  onclick="nextImg(10)"  src="./assets/images/facilities/sports-1.jpg" style="display: none;" alt="sports hall 1">
+                            <img  id="image-10"  onclick="nextImg(1)"  src="./assets/images/facilities/sports-2.jpg" style="display: none;" alt="sports hall 2">
                         </div> 
                         <div class="row jcc">
-                            <!-- <div class="col-12 bottom-nav ">
-                                <div class="row ruby">
-                                <div id="prev-img" class="col-6 left pl-3"><p>Left</p></div>
-                                <div id="next-img" class="col-6 right"><p>Next</p></div>
-                                </div>
-
-                            </div> -->
+                            <div class="col-12 bottom-nav ">
+                                <div id="imgNum" class="col-12 right"><p>1/10</p></div>
+                            </div> 
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-2"></div> -->
             </div>
         </div>
 
         <script>
-
+            
             function nextImg(x) {
+
                 document.getElementById('image-1').style.display = "none";
                 document.getElementById('image-2').style.display = "none";
                 document.getElementById('image-3').style.display = "none";
                 document.getElementById('image-4').style.display = "none";
                 document.getElementById('image-5').style.display = "none";
                 document.getElementById('image-6').style.display = "none";
+                document.getElementById('image-7').style.display = "none";
+                document.getElementById('image-8').style.display = "none";
+                document.getElementById('image-9').style.display = "none";
+                document.getElementById('image-10').style.display = "none";
+
+
                 document.getElementById('image-' + x ).style.display = "block";
+                document.getElementById('imgNum').innerHTML = "<p>" + x + "/10</p>";
                 
             }
 
