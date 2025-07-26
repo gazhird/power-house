@@ -208,7 +208,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 jcc">
                     
                     <div class="photo-library"> 
 
@@ -221,9 +221,6 @@
                             <img  id="image-6"  onclick="nextImg(7)"  src="./assets/images/facilities/class-2.jpg" style="display: none;" alt="fitness class 2">
                             <img  id="image-7"  onclick="nextImg(8)"  src="./assets/images/facilities/gym-1.jpg" style="display: none;" alt="inside gym 1">
                             <img  id="image-8"  onclick="nextImg(9)"  src="./assets/images/facilities/gym-2.jpg" style="display: none;" alt="inside gym 2">
-
-
-
                             <img  id="image-9"  onclick="nextImg(10)"  src="./assets/images/facilities/sports-1.jpg" style="display: none;" alt="sports hall 1">
                             <img  id="image-10"  onclick="nextImg(1)"  src="./assets/images/facilities/sports-2.jpg" style="display: none;" alt="sports hall 2">
                         </div> 
@@ -237,44 +234,7 @@
             </div>
         </div>
 
-        <script>
-            
-            function nextImg(x) {
-
-                document.getElementById('image-1').style.display = "none";
-                document.getElementById('image-2').style.display = "none";
-                document.getElementById('image-3').style.display = "none";
-                document.getElementById('image-4').style.display = "none";
-                document.getElementById('image-5').style.display = "none";
-                document.getElementById('image-6').style.display = "none";
-                document.getElementById('image-7').style.display = "none";
-                document.getElementById('image-8').style.display = "none";
-                document.getElementById('image-9').style.display = "none";
-                document.getElementById('image-10').style.display = "none";
-
-
-                document.getElementById('image-' + x ).style.display = "block";
-                document.getElementById('imgNum').innerHTML = "<p>" + x + "/10</p>";
-                
-            }
-
-                // if (x < 7) {
-                //     document.getElementById('image-' + x ).style.display = "none";
-                //     x++;
-                //     document.getElementById('image-' + x ).style.display = "block";
-                    
-                // };
-                // if (x > 7) {
-                //     document.getElementById('image-6').style.display = "none";
-                //     document.getElementById('image-1').style.display = "block";
-                    
-                // };
-                
-
-
-
-        </script>
-
+        
 
     </main>
 

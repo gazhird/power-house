@@ -1,4 +1,10 @@
 
+// Created with previous knowledge of JS but used W3 schools to help refresh and remind me of syntax
+
+
+
+// Captures users name and hides the join form once complete
+// Then sends a welcome response and displays users name on hero section  
 function joined(event) {
 var name = document.getElementById("first-name").value;
 document.getElementById('orange-box-button').style.display = "none"
@@ -12,11 +18,8 @@ event.preventDefault() // to stop default submit
 
 
 
-
-
 // This is to display only the timetable for specified day selected for classes
 // I didn't want to show the full week as takes up too much space
-// Created with previous knowledge of JS but used W3 schools to help refresh and remind me of syntax
 
 // this event listener activates when user selects 'a day' option from dropdown
 var select = document.getElementById('select-day');
@@ -41,7 +44,32 @@ i++;
 };}
 
 
-                // Shows the day selected on drop down
-                function show(day) {
-                document.getElementById(day).className = "show";
-                };
+// Shows the day selected on drop down
+function show(day) {
+document.getElementById(day).className = "show";
+};
+
+
+
+// Facilities page photo library 
+
+function nextImg(x) {
+
+    document.getElementById('image-1').style.display = "none";
+    document.getElementById('image-2').style.display = "none";
+    document.getElementById('image-3').style.display = "none";
+    document.getElementById('image-4').style.display = "none";
+    document.getElementById('image-5').style.display = "none";
+    document.getElementById('image-6').style.display = "none";
+    document.getElementById('image-7').style.display = "none";
+    document.getElementById('image-8').style.display = "none";
+    document.getElementById('image-9').style.display = "none";
+    document.getElementById('image-10').style.display = "none";
+
+
+    document.getElementById('image-' + x ).style.display = "block";
+    document.getElementById('imgNum').innerHTML = "<p>" + x + "/10</p>";
+                
+}
+
+
