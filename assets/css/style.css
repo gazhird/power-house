@@ -116,6 +116,22 @@ header nav .nav-item a:hover {
     border: 2px solid black;
 }
 
+/*/ Page header membership & contact us pages  /*/
+
+.page-header {
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: auto;
+    background-color: #FE6801;
+    border: 3px solid #0197fe;
+    box-shadow: 2px 2px 2px #0197fe;
+}
+
+.page-header h1 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 900;
+}
 
 
 
@@ -384,20 +400,6 @@ font-size: 12px;
 
 
 /*/ Membership page /*/
-.league-header {
-    margin-top: 15px;
-    padding-left: 20px;
-    padding-top: 10px;
-    height: auto;
-    background-color: #FE6801;
-    border: 3px solid #0197fe;
-    box-shadow: 2px 2px 2px #0197fe;
-}
-
-.league-header h1 {
-    font-family: "Fjalla One", sans-serif;
-    font-weight: 900;
-}
 
 .gold {
     color: gold;
@@ -621,5 +623,9 @@ footer #Socials a {
     .photo-library img {
     max-height: 360px;
     }    
-    
+
+    /*/ Members  page  /*/
+    #League-tables .table-box {
+    width: 500px;
+    }
 }
