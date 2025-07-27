@@ -427,16 +427,22 @@ font-size: 12px;
 /*/ Contact page /*/
 
 .faq-box {
+    margin-top: 20px;
     width: 80%;
-    margin: 4px 20px;
-border: 2px solid black;
+    border: 2px solid black;
 }
-
+.faq-box h4 {
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
 .faq-box a {
-    padding-top: 10px;
+    padding: 0px;
     color: black;
     font-size: 14px;
+    
 }
+
 
 
 /*/ Footer  /*/
