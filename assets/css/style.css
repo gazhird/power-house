@@ -377,13 +377,14 @@ font-size: 12px;
 .photo-library {
     border: 5px solid #FE6801;
     box-shadow: 4px 4px 5px #0197fe;
-    width: auto;
+    width: 100%;
 
 }
 
 .photo-library img {
     width: 100%;
-    max-height: 190px;
+    min-height: 200px;
+    max-height: 200px;
 }
 .photo-library .bottom-nav {
     z-index: 2;
@@ -395,6 +396,7 @@ font-size: 12px;
     font-weight: 700;
     padding-right: 10px;
     text-shadow: #0197fe;
+    font-size: 18px;
 }
 
 
@@ -416,13 +418,25 @@ font-size: 12px;
     overflow: auto;
 }
 
-#League-tables .table-box .table-box-table {
+#League-tables .table-box .table-box-table  {
     padding-left: 20px;
 }
 
 
 
 /*/ Contact page /*/
+
+.faq-box {
+    width: 80%;
+    margin: 4px 20px;
+border: 2px solid black;
+}
+
+.faq-box a {
+    padding-top: 10px;
+    color: black;
+    font-size: 14px;
+}
 
 
 /*/ Footer  /*/
@@ -545,7 +559,12 @@ footer #Socials a {
     }
 
     /*/ Facilities page  /*/
+    .photo-library {
+    width: 70%;
+    }
+
     .photo-library img {
+    min-height: 240px;
     max-height: 240px;
     } 
 
@@ -553,6 +572,12 @@ footer #Socials a {
     #League-tables .table-box {
     width: 370px;
     }
+
+    #League-tables .table-box .table-box-table td, 
+    .table-box .table-box-table th {
+    font-size: 18px;
+    }
+
     
 }
 
@@ -569,7 +594,32 @@ footer #Socials a {
     height: auto;
     }
 
+    #discount h1 {
+    font-size: 30pt;
+    }
+    
+    #discount .discount-text p {
+    font-size: 18px;
+    }
+
+    #discount .discount-price h3 {
+    font-size: 20pt;
+    }
+
+    #discount .discount-join button {
+    font-size: 20px;
+    }
+
      /*/ Facilities page  /*/
+
+     #facilities .facilities-box p {
+    font-size: 18px;
+    }
+     /*/ Facilities page  /*/
+    .photo-library {
+    width: 60%;
+    }
+
     .photo-library img {
     max-height: 260px;
     }    
@@ -621,6 +671,16 @@ footer #Socials a {
     }
 
      /*/ Facilities page  /*/
+
+     #facilities .facilities-box p {
+    font-size: 20px;
+    }
+
+
+     .photo-library {
+    width: 60%;
+    }
+
     .photo-library img {
     max-height: 360px;
     }    
