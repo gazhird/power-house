@@ -92,7 +92,7 @@ header nav .logo-text:hover {
 
 header nav .nav-item a {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     font-style: normal;
     letter-spacing: 1px;
@@ -182,7 +182,7 @@ header nav .nav-item a:hover {
 }
 
 
-#demo p, #demo a {
+#demo p {
     padding-top: 14px;
     font-family: "Fjalla One", sans-serif;
     color: black;
@@ -239,8 +239,8 @@ header nav .nav-item a:hover {
     font-family: "Bebas Neue", sans-serif;
     font-size: 22pt;
     font-weight: 800;
-    color: #FE6801;
-    text-shadow: 2px 2px black;
+    color: black;
+    text-shadow: 4px 2px #FE6801;
     letter-spacing: 3px;
 }
 
@@ -264,13 +264,15 @@ header nav .nav-item a:hover {
 
 #discount .discount-join button {
     margin: 20px 0px;
-    padding: 5px 5px;
-    background-color: #FE6801;
+    padding: 5px 8px;
+    height: 50px;
     font-family: "Fjalla One", sans-serif;
     color: black;
-    font-size: 16px;
-    font-weight: 500;
-    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: #FE6801;
+    
     border-radius: 10px 10px;
     border: 3px solid black;
 }
@@ -300,11 +302,28 @@ header nav .nav-item a:hover {
     
 }
 
+#categories h2 { 
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+
+}
+
 #categories h3 {
     padding-top: 10px;
+    margin-left: 20px;
     font-family: "Fjalla One", sans-serif;
-    font-size: 12pt;
-    font-weight: 800;
+    font-size: 14pt;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: black;
+}
+
+#categories h4 {
+    padding-top: 10px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
     letter-spacing: 1px;
     color: black;
 }
@@ -315,6 +334,8 @@ header nav .nav-item a:hover {
 
 #categories .cat-box-mid a {
    text-decoration: none;
+   color: black;
+   font-weight: 800;
 }
 
 
@@ -329,19 +350,26 @@ header nav .nav-item a:hover {
 
 
 /*/ Categories 'classes' Box 1 /*/
-#categories #classes span {
-display: none;
-}
 
 
 #categories table th {
-font-size: 12px;
+    font-size: 17px;
+    font-weight: 800;
 }
+
+#categories table td {
+    font-size: 17px;
+}
+
 
 /*/ Other activities Box 4  /*/
 #categories #other p {
     padding-left: 10px;
     margin-left: 0px;
+}
+
+#categories #other img {
+    padding: 0px 10px;
 }
 
 
@@ -402,11 +430,9 @@ font-size: 12px;
 
 
 
-/*/ Membership page /*/
+/*/ Membership page / League tables /*/
 
-.gold {
-    color: gold;
-}
+.gold {color: gold;}
 
 #League-tables .table-box {
     margin-top: 30px;
@@ -427,30 +453,60 @@ font-size: 12px;
 
 /*/ Contact page /*/
 
-.faq-box {
+#FAQ .faq-box {
     padding-left: 6px;
     padding-right: 0px;
     margin-top: 20px;
     width: 90%;
-    border: 2px solid black;
-    box-shadow: 2px 2px 2px #FE6801;
+    background-color: #f8f9fa;
+    border: 2px solid #FE6801;
+    box-shadow: 2px 3px 4px #0197fe;
 }
-.faq-box h4 {
+#FAQ .faq-box h4 {
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 600;
     padding-left: 10px;
     margin-bottom: 0px;
+    letter-spacing: 1px;
 }
-.faq-box i {
-    padding: 0px;
+#FAQ .faq-box i {
+    padding: 0px 4px;
     font-size: 14px;
     font-weight: 700;
     color: #FE6801;
     text-shadow: #0119FE;
-    
-    
 }
 
+#contact-Us .contact-form-box {
+    padding-right: 0px;
+    margin-top: 20px;
+    width: 90%;
+    height: 300px;
+    background-color: #f8f9fa;
+    border: 2px solid #FE6801;
+    box-shadow: 2px 3px 4px #0197fe;
+    
+
+}
+
+
+
+
+
+
+#contact-Us .contact-form-bot button {
+    margin: 20px 5px;
+    padding: 0px 8px;
+    height: 50px;
+    font-family: "Fjalla One", sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: #FE6801;
+    border-radius: 10px 10px;
+    border: 3px solid black;
+}
 
 
 /*/ Footer  /*/
@@ -544,6 +600,11 @@ footer #Socials a {
     background-image: linear-gradient(to right, rgba(1, 151, 254, 0.75), rgba(254, 104, 1, 0.5)), url("../images/weights-bar.jpg");
     }
 
+    
+    header nav .nav-item a {
+    font-size: 26px;
+    }
+
     .logo-hero {
     height: 250px;
     width: 250px;
@@ -553,14 +614,31 @@ footer #Socials a {
     min-height: 280px;
     }
 
+    /*/ discount  /*/
+
+    #discount .discount-join button {
+    font-size: 22px;
+    }
 
     /*/ Hero Carousel text  /*/
     #demo p, #demo a {
-    font-size: 20px;
+    font-size: 24px;
+    }
+
+    #categories h3 {
+    font-size: 20px; 
     }
 
     #categories table th {
-    font-size: 14px;
+    font-size: 20px;
+    }
+
+    #categories table td {
+    font-size: 20px;
+    }
+
+    #categories .cat-box {
+    width: 70%;
     }
 
     #categories img {
@@ -603,6 +681,11 @@ footer #Socials a {
     font-size: 24px;
     }
 
+
+    #categories .cat-box {
+    width: 70%;
+    }
+
     #categories img {
     width: 100%;
     height: auto;
@@ -624,12 +707,19 @@ footer #Socials a {
     font-size: 20px;
     }
 
+    /*/ multi page header /*/
+
+    .page-header h1 {
+    font-size: 24px;
+    }
+
+
      /*/ Facilities page  /*/
 
      #facilities .facilities-box p {
     font-size: 18px;
     }
-     /*/ Facilities page  /*/
+    
     .photo-library {
     width: 60%;
     }
@@ -643,6 +733,15 @@ footer #Socials a {
     width: 400px;
     }
 
+    /*/ Contact  /*/
+
+    .faq-box {
+    width: 70%;
+    }
+
+    .faq-box h4, .faq-box i  {
+    font-size: 20px;
+    }
 }
 
 /* Large Desktops, Tv screens & Projectors */
@@ -661,6 +760,10 @@ footer #Socials a {
     /*/ Hero Carousel text  /*/
     #demo p, #demo a {
     font-size: 26px;
+    }
+
+    #categories .cat-box {
+    width: 60%;
     }
 
     #categories img {
@@ -702,5 +805,15 @@ footer #Socials a {
     /*/ Members  page  /*/
     #League-tables .table-box {
     width: 500px;
+    }
+
+    /*/ Contact  /*/
+
+    .faq-box {
+    width: 70%;
+    }
+
+    .faq-box h4, .faq-box i  {
+    font-size: 20px;
     }
 }
