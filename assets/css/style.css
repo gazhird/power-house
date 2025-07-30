@@ -234,10 +234,10 @@ header nav .nav-item a:hover {
     border-bottom: 4px solid #FE6801;
 }
 
-#discount h1 {
+#discount h2 {
     margin-top: 20px;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 22pt;
+    font-size: 29px;
     font-weight: 800;
     color: black;
     text-shadow: 4px 2px #FE6801;
@@ -366,6 +366,13 @@ header nav .nav-item a:hover {
 #categories #other p {
     padding-left: 10px;
     margin-left: 0px;
+}
+
+#categories #other  i {
+    padding-top: 10px;
+    font-size: 13pt;
+    font-weight: 600;
+    color: black;
 }
 
 #categories #other img {
