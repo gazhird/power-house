@@ -58,7 +58,6 @@
     color: #FE6801;
     color: #0197fe;
     color: #0119FE;
-    color: #01FEE6;
 }
   
 
@@ -431,8 +430,7 @@ header nav .nav-item a:hover {
     color: #FE6801;
     font-weight: 700;
     padding-right: 10px;
-    text-shadow: #0197fe;
-    font-size: 18px;
+    font-size:18px;
 }
 
 
@@ -481,7 +479,6 @@ header nav .nav-item a:hover {
     font-size: 14px;
     font-weight: 700;
     color: #FE6801;
-    text-shadow: #0119FE;
 }
 
 

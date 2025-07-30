@@ -16,15 +16,93 @@ i will attempt to add as much detail prior to the project and update as the proj
 
 ## Design 
 
+I want my site to be fun and stylish with bright colors and promote the gym to more potential members 
+with pages for Membership, Facilities and a Contact page. 
+
+For the Navigation i will use a  'Sticky Navbar' that maintain visible on screen, so users can visit other areas of the site easily. 
+I will be using lots of Bootstrap for positioning content across the site.
+
+
+i will use a model for joining and have a carousel/ information bar located with the hero section.
+i like information to be tidy and in collapsed form so it is not displayed when not wanted so will use the bootstrap collapse/collapsed function to hide and display. 
+
+I have made my own photo carousel before using basic JavaScript and will recreate that for the Facilities page, where you just click on the image to bring up the next image in its place.
+I prefer this carousel rather than ones available with Bootstrap 5 
+
+i will be using Lorem Ipsum in areas to fill text space and a variety of google fonts and diffrent size headings from H1 to H4
+
+On the contact page i will give some drop down Frequently Asked Questions which will hopefully answer any questions users have prior to making contact with staff to prevent excessive messages. 
+
+Javascript event listeners will be used to collect form data and make the site more interactive. 
+
+Form labels and image alts will be acuate to make the site more accessible 
+
+## Colors 
+
+My favorite color is 'Electric Blue' and thought it would look good for a Gym Website.
+using my knowledge learnt doing a Level 2 Graphics Design collage course i found a website 'Canva.com'
+which had a online Color Wheel and found a hash code for a blue color that i liked  #0197FE
+
+Using the Color Wheel i found that the complimentary color for that specific blue was an orange   #FE6801
+'Complimentary colors are colors that work well together (complement each other) the are found directly opposite each other on color wheels
+
+![alt text](./assets/images/complimentry-colours.png "Complimentary colors")
+
+
+Going further i looked into the analogous colors which also work well 
+
+![alt text](./assets/images/analogous-colors.png "Analogous colors")
+
+Colors used:
+ #FE6801  (Orange)
+ #0197fe  (Light Blue)
+ #f8f9fa  (Off white)
+ #0119FE  (Dark Blue)
 
 
 ## Logo 
+            
+Firstly i used Chat GPT to create a logo, that i was going to use in the center of the hero section
+but i decided against using the logo and also wanted to put a model button in that prime position. 
 
+![alt text](./assets/images/logo-example.png "logo example")
 
- 
-## Colors 
+I decided it was better to use a logo created myself using CSS than a logo created by AI. 
+
 
 ## Images 
+
+All images used from www.pexels.com
+Below are the credited photographers
+
+
+All Pages:
+
+Navigation image of weights bar: Photographer Tima Miroshnichenko
+
+Home Page
+
+Fitness Class photo: Photographer Andrea Piacquadio
+Fitness instructor Image: Photographer Andres Ayrton
+Fitness test: Photographer Nataliya Vaitkevich
+Coach Image: Photographer Safi Erneste
+
+Other activities 
+Rock climbing: Photographer Allan Mas
+Hillside walk: Photographer Nataliya Vaitkevich
+Lincoln 10k: Photographer RUN 4 FFWPU
+
+
+Facilities Page / Photo Library 
+
+Outside Gym:  Photographer Andrea Piacquadio
+Indoor swimming pool: Photographer SHVETS production
+Fitness Class: Photographer Andrea Piacquadio
+Sports Hall: Photographer Pavel Danilyuk
+Gym photos: Photographer Tima Miroshnichenko
+Treadmill Photo: Photographer William Choquette
+
+
 
 ## Testing
 
@@ -80,7 +158,26 @@ Contact Page
     Removed white space on all of the forms 'for' attributes on labels and gave all inputs a id matching
 
 
+CSS Style sheet 
+
+- 434 .photo-library .bottom-nav p	
+Value Error : text-shadow Too many values or values are not recognized : #0197fe
+
+- 483.FAQ .faq-box i	
+Value Error : text-shadow Too many values or values are not recognized : #0119FE
+
 ## Lighthouse test 
+
+Completed Lighthouse Assessment
+
+Performance 90
+Accessability 91
+Best Practices 79
+SEO 90 
+
+![alt text](./assets/images/lighthouse.png "logo example")
+
+
 
 ## Bugs
 
@@ -100,9 +197,12 @@ I solved this issue using GIMP to scale and resize images to 552px width By 308p
 
 ## Additional Recourses 
 
+- Canva.com 'Colour circle'
 - W3Schools website
 - W3C validator.w3.org 
+- W3C CSS Valdation
 - Pexels
+- Chat GPT (for logo but not used)
 
 
 
