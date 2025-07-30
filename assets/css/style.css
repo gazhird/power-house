@@ -477,22 +477,16 @@ header nav .nav-item a:hover {
     text-shadow: #0119FE;
 }
 
+
+
 #contact-Us .contact-form-box {
     padding-right: 0px;
     margin-top: 20px;
     width: 90%;
-    height: 300px;
     background-color: #f8f9fa;
     border: 2px solid #FE6801;
     box-shadow: 2px 3px 4px #0197fe;
-    
-
 }
-
-
-
-
-
 
 #contact-Us .contact-form-bot button {
     margin: 20px 5px;
@@ -508,6 +502,20 @@ header nav .nav-item a:hover {
     border: 3px solid black;
 }
 
+#contact-Us .contact-form-top h4 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+
+#contact-Us .contact-form-mid input,
+#contact-Us .contact-form-mid textarea { 
+    padding-left: 10px;
+    width: 100%;
+    border-color: #FE6801;
+}
 
 /*/ Footer  /*/
 
@@ -669,7 +677,16 @@ footer #Socials a {
     .table-box .table-box-table th {
     font-size: 18px;
     }
+    
+    /*/ Contact page  /*/
 
+    #FAQ .faq-box {
+    width: 60%;
+    }
+
+    #contact-Us .contact-form-box {
+    width: 50%;
+    }
     
 }
 

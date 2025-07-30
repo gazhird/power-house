@@ -280,22 +280,33 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-header">
-                        <h1>Contact us  <i class="fa-solid fa-bolt"></i></h1>
+                        <h1>Contact us <i class="fa-solid fa-bolt"></i></h1>
                     </div>
                 </div>
             </div>
             <div class="row jcc">
                 <div class="col-12 contact-form-box nop">
-                    <form method="" action="" >
-                        <div class="contact-form-top">
-                            <label for="First Name"></label><br>
-                                    <input type="text"  placeholder="First Name"><br>
-
-                                    <label for="Comment"></label><br>
-                                    <input type="textarea" placeholder="Comment"><br>
+                    <form method="get" action="contact.html" >
+                        <div class="contact-form-top jcc">
+                            <h4>Get in touch <i class="fa-solid fa-bolt"></i></h4>
+                            
                         </div>
-                        <div class="contact-form-mid"></div>
-                        <div class="contact-form-bot right">
+                        <div class="contact-form-mid jcc">
+                            <div class="internals">
+                            <label for="Name"></label><br>
+                            <input type="text"  placeholder="Name" required="required"><br>
+
+                            <label for="Email Address"></label><br>
+                            <input type="email"  placeholder="Email" required="required"><br>
+
+                            <label for="Contact Number"></label><br>
+                            <input type="number"  placeholder="Contact Number" required="required"><br>
+
+                            <label for="Comment"></label><br>
+                            <textarea rows="7" cols="24" required="required" placeholder="Enter Comment..."  ></textarea>
+                        </div>
+                        </div>
+                        <div class="contact-form-bot jcc">
                             <button type="submit" >Submit <i class="fa-solid fa-bolt"></i></button>
                         </div>
                     </form>
@@ -366,10 +377,10 @@
                             <div class="row">
                                 <div id="join-inputs" class="col-12">
                                     <label for="first-name"></label><br>
-                                    <input type="text" id="first-name" placeholder="First Name"><br>
+                                    <input type="text" id="first-name" placeholder="First Name"  required="required"><br>
 
                                     <label for="last-name"></label><br>
-                                    <input type="text" id="last-name" placeholder="Last Name"><br>
+                                    <input type="text" id="last-name" placeholder="Last Name"  required="required"><br>
                                 </div>
                                 <div class="col-12">
                                     <div id="submitted"></div>
