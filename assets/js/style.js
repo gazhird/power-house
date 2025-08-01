@@ -3,25 +3,10 @@
 
 
 
-// Captures users name and hides the join form once complete
-// Then sends a welcome response and displays users name on hero section  
-function joined(event) {
-var name = document.getElementById("first-name").value;
-document.getElementById('orange-box-button').style.display = "none"
-document.getElementById('join-inputs').style.display = "none"
-document.getElementById('join-submit').style.display = "none"
-document.getElementById('close-button').style.display = "block"
-document.getElementById('thanks-for-joining').innerHTML = '<p>Welcome ' + name + '  <i class="fa-solid fa-bolt"></i></p>'; 
-document.getElementById('submitted').innerHTML = '<h3>Hi, ' + name + '<br>Thanks for Joining</h3>'; 
-event.preventDefault() // to stop default submit
-}
-
-
-
 // This is to display only the timetable for specified day selected for classes
 // I didn't want to show the full week as takes up too much space
 
-// this event listener activates when user selects 'a day' option from dropdown
+// this event listener activates when user selects 'a day' select option from dropdown
 var select = document.getElementById('select-day');
 select.addEventListener('change', function() {                         
 var day = this.value;
@@ -48,6 +33,8 @@ i++;
 function show(day) {
 document.getElementById(day).className = "show";
 };
+
+
 
 
 

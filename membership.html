@@ -57,11 +57,8 @@
                     <div class="parent">
                         <div class="orange-box child jcc">
                             <div  id="orange-box-button"  >
-                                <a data-bs-toggle="modal" data-bs-target="#join-up-modal">Join Here <i class="fa-solid fa-bolt"></i></a>
+                            <a href="membership.html#join" >Join Here <i class="fa-solid fa-bolt"></i></a>
                             </div>
-                            <div id="thanks-for-joining">
-
-                            </div> 
                         </div>
                     </div>
                 </div>
@@ -153,15 +150,69 @@
                             
                         </div>
                         <div class="discount-join jcc">
-                            <button type="button" data-bs-toggle="modal" data-bs-target="#join-up-modal">Join Now <i class="fa-solid fa-bolt"></i></button>
+                            <div class="button-box jcc">
+                                <a href="membership.html#join" >Join Now <i class="fa-solid fa-bolt"></i></a>
+                            </div>
                         </div>
-
                     </div>
 
                 </div>
             </div>
         </div>
         </section>
+
+
+        <!-- Membership Form Heading  -->
+         <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-header">
+                        <h1>Membership Form <i class="fa-solid fa-bolt"></i></h1>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+
+
+         <!-- Membership Form -->
+        <section id="join" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 jcc">
+                        <div class="membership-form">
+                            <div class="top-heading jcc">
+                                <h3 class="mt-4">Sign up  <i class="fa-solid fa-bolt"></i></h3>
+                            </div>
+                            
+                            <form action="joined.html" method="Get" >
+
+                                <label for="First-Name"></label>
+                                <input type="text" id="first-name" class="mt-4" placeholder="First Name" required="required"><br>
+
+                                <label for="Last-Name"></label>
+                                <input type="text" id="Last-Name"  placeholder="Last Name" required="required"><br>
+
+                                <label for="Address"></label>
+                                <textarea id="Address" rows="8" cols="26" placeholder="Address" required="required"></textarea><br>
+
+                                <label for="Postcode"></label>
+                                <input type="text" id="Postcode" placeholder="Postcode" required="required"><br>
+
+                                <button type="submit" value="submit" class="mt-4 jcc btn" >Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
 
         <!-- League table header  -->
          <div class="container-fluid">
@@ -461,42 +512,7 @@
     </footer>
 
 
-            <!-- The Modal for joining -->
-            <div class="modal fade" id="join-up-modal">
-                <div class="modal-dialog modal-dialog-centered modal-md">
-                    <div class="modal-content">
-                        <form id="join-form" method="get" action="index.html" >
-                        <!-- Modal Header -->
-                        <div class="modal-header ">
-                            <h4 class="modal-title">Membership</h4>
-                            <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
-                        </div>
 
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <div class="row">
-                                <div id="join-inputs" class="col-12">
-                                    <label for="first-name"></label><br>
-                                    <input type="text" id="first-name" placeholder="First Name" required="required"><br>
-
-                                    <label for="last-name"></label><br>
-                                    <input type="text" id="last-name" placeholder="Last Name" required="required"><br>
-                                </div>
-                                <div class="col-12">
-                                    <div id="submitted"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <button id="join-submit" onclick="joined(event)" type="submit" value="submit" class="footer-btn btn" >Submit</button>
-                            <button id="close-button" type="button" data-bs-dismiss="modal" style="display: none;"  class="footer-btn btn" >Close </button>
-                        </div>
-                        </form>
-                    </div>
-            </div>
-        </div>
 
     
     <script src="./assets/js/style.js" ></script>

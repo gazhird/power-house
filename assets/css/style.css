@@ -12,6 +12,7 @@
 .mt-2  {margin-top: 20px;}
 .mt-4  {margin-top: 40px;}
 .pt-4  {padding-top: 40px;}
+.ml-1  {margin-left: 10px;}
 .ml-2  {margin-left: 20px;}
 .pl-1  {padding-left: 10px;}
 .pl-2  {padding-left: 20px;}
@@ -86,7 +87,8 @@ header nav .logo-text {
 }
 
 header nav .logo-text:hover {
-    color: #0197fe;   
+    color: #0197fe;
+    transition: 1s;
 }
 
 header nav .nav-item a {
@@ -99,6 +101,7 @@ header nav .nav-item a {
 
 header nav .nav-item a:hover {
     color: #0197fe;
+    transition: 1s;
 }
 
 
@@ -113,6 +116,7 @@ header nav .nav-item a:hover {
 .navbar-toggler:hover {
     background-color: #0197fe;
     border: 2px solid black;
+    transition: 2ms;
 }
 
 /*/ Page header membership & contact us pages  /*/
@@ -167,6 +171,7 @@ header nav .nav-item a:hover {
 
 #orange-box-button a:hover {
     color: #0197fe;
+    transition: 1s;
 }
 
 
@@ -191,47 +196,13 @@ header nav .nav-item a:hover {
 
 
 
-/*/ Modal   /*/
-
-#join-up-modal .modal-footer .footer-btn, #join-up-modal .modal-header button {
-    font-family: "Fjalla One", sans-serif;
-    color: black;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: #FE6801;
-    border: 4px solid black;
-    min-width: 90px;
-}
-
-#join-up-modal input {
-    border-color: #FE6801;
-}
-
-
-#join-up-modal .modal-header button {
-    background-color: white;
-}
-
-#join-up-modal .modal-header {
-    width: 100%;
-    background-color: #FE6801;
-    border-bottom: 4px solid black;
-}
-
-#join-up-modal .modal-header h4 {
-    font-family: "Fjalla One", sans-serif;
-    color: black;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-
 /*/// Discount section all Pages //*/
 
 #discount {
     background-color: #0197fe;
     border-bottom: 4px solid #FE6801;
 }
+
 
 #discount h2 {
     margin-top: 20px;
@@ -261,25 +232,31 @@ header nav .nav-item a:hover {
     letter-spacing: 2px;
 }
 
-#discount .discount-join button {
-    margin: 20px 0px;
-    padding: 5px 8px;
+#discount .discount-join {
+    margin-bottom: 28px;
+}
+
+#discount .discount-join .button-box {
     height: 50px;
+    width: 130px;
+    background-color: #FE6801;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px 10px;
+}
+
+
+#discount .discount-join .button-box a {
     font-family: "Fjalla One", sans-serif;
     color: black;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    background-color: #FE6801;
-    
-    border-radius: 10px 10px;
-    border: 3px solid black;
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0px;
 }
 
-#discount .discount-join {
-    padding-bottom: 50px;
+#discount .discount-join .button-box a:hover {
+    color: #0197fe;
+    transition: 1s;
 }
-
 
 
 /*/ Categories (Image Cards / Boxes) Index Page  /*/
@@ -378,6 +355,61 @@ header nav .nav-item a:hover {
     padding: 0px 10px;
 }
 
+/*/ Membership page / Membership Form   /*/
+
+#join .membership-form {
+    margin-top: 20px;
+    height: 500px;
+    background-color: #f8f9fa;
+    border: 3px solid #0197fe;
+    box-shadow: 4px 4px 5px #FE6801;
+}
+
+#join input {
+    margin: 4px 8px;
+    width: 260px;
+}
+
+#join textarea {
+    margin: 4px 8px;
+    width: 260px;
+}
+
+
+#join button {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 8px;
+    height: 50px;
+    font-family: "Fjalla One", sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: #FE6801;
+    border-radius: 10px 10px;
+    border: 3px solid black;
+}
+
+
+/*/ Membership page / League tables /*/
+
+.gold {color: gold;}
+
+#League-tables .table-box {
+    margin-top: 30px;
+    width: 300px;
+    height: 275px;
+    background-color: #f8f9fa;
+    border: 3px solid #0197fe;
+    box-shadow: 4px 4px 5px #FE6801;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+
+#League-tables .table-box .table-box-table  {
+    padding-left: 20px;
+}
 
 
 
@@ -434,25 +466,6 @@ header nav .nav-item a:hover {
 }
 
 
-
-/*/ Membership page / League tables /*/
-
-.gold {color: gold;}
-
-#League-tables .table-box {
-    margin-top: 30px;
-    width: 300px;
-    height: 275px;
-    background-color: #f8f9fa;
-    border: 3px solid #0197fe;
-    box-shadow: 4px 4px 5px #FE6801;
-    padding-bottom: 10px;
-    overflow: auto;
-}
-
-#League-tables .table-box .table-box-table  {
-    padding-left: 20px;
-}
 
 
 
@@ -516,10 +529,17 @@ header nav .nav-item a:hover {
 
 #contact-Us .contact-form-mid input,
 #contact-Us .contact-form-mid textarea { 
-    padding-left: 10px;
-    width: 100%;
+    margin: 4px 8px;
+    width: 260px;;
     border-color: #FE6801;
 }
+
+/*/ joined and submitted pages   /*/
+#joined-message p,
+#submitted-message p {
+    font-size: 18px;
+}
+
 
 /*/ Footer  /*/
 
@@ -691,6 +711,13 @@ footer #Socials a {
     #contact-Us .contact-form-box {
     width: 50%;
     }
+
+    /*/ joined and submitted pages   /*/
+    #joined-message p,
+    #submitted-message p {
+    font-size: 20px;
+}
+
     
 }
 
@@ -777,6 +804,15 @@ footer #Socials a {
     height: 320px;
     width: 320px;
     }
+    
+    header nav .logo-text {
+    font-size: 24px;
+    }
+    
+    header nav .nav-item a {
+    font-size: 24px;
+    }
+
 
     /*/ Hero Carousel text  /*/
     #demo p, #demo a {
@@ -797,7 +833,7 @@ footer #Socials a {
     }
     
     #discount .discount-text p {
-    font-size: 20px;
+    font-size: 18px;
     }
 
     #discount .discount-price h3 {

@@ -166,7 +166,7 @@ Value Error : text-shadow Too many values or values are not recognized : #0197fe
 - 483.FAQ .faq-box i	
 Value Error : text-shadow Too many values or values are not recognized : #0119FE
 
-## Lighthouse test 
+## Lighthouse
 
 Completed Lighthouse Assessment
 
