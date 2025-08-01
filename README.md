@@ -22,8 +22,6 @@ with pages for Membership, Facilities and a Contact page.
 For the Navigation i will use a  'Sticky Navbar' that maintain visible on screen, so users can visit other areas of the site easily. 
 I will be using lots of Bootstrap for positioning content across the site.
 
-
-i will use a model for joining and have a carousel/ information bar located with the hero section.
 i like information to be tidy and in collapsed form so it is not displayed when not wanted so will use the bootstrap collapse/collapsed function to hide and display. 
 
 I have made my own photo carousel before using basic JavaScript and will recreate that for the Facilities page, where you just click on the image to bring up the next image in its place.
@@ -33,7 +31,6 @@ i will be using Lorem Ipsum in areas to fill text space and a variety of google 
 
 On the contact page i will give some drop down Frequently Asked Questions which will hopefully answer any questions users have prior to making contact with staff to prevent excessive messages. 
 
-Javascript event listeners will be used to collect form data and make the site more interactive. 
 
 Form labels and image alts will be acuate to make the site more accessible 
 
