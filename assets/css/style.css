@@ -540,6 +540,25 @@ header nav .nav-item a:hover {
     font-size: 18px;
 }
 
+#joined-message .home-button,
+#submitted-message .home-button {
+    height: 38px;
+    width: 100px;
+    background-color: #FE6801;
+    border-radius: 10px 10px;
+    border: 3px solid black;
+}
+
+#joined-message .home-button a,
+#submitted-message .home-button a {
+    margin-top: 4px;
+    font-family: "Fjalla One", sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
 
 /*/ Footer  /*/
 
