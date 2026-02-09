@@ -167,10 +167,10 @@ Value Error : text-shadow Too many values or values are not recognized : #0119FE
 
 Completed Lighthouse Assessment
 
-Performance 90
-Accessability 91
-Best Practices 79
-SEO 90 
+Performance 84
+Accessability 93
+Best Practices 96
+SEO 91
 
 ![alt text](./assets/images/lighthouse.png "logo example")
 
