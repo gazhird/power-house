@@ -14,6 +14,38 @@ i will attempt to add as much detail prior to the project and update as the proj
 
 ---
 
+## Lighthouse
+
+Completed Lighthouse Assessment
+
+<img src="./assets/screenshots-readMe/lighthouse1.png" width="80%" alt="Lighthouse-top"/>
+
+
+
+
+
+
+
+
+## Site Purpose & Value
+
+The Web Apllications purpose is to be a center for all information and updates.
+The main key features are:
+
+- Sign up as new member
+- Advertise facilities
+- Show updates
+- Display class times
+- Shows leaderboards
+- Information on day trips
+- Book Fitness Instructor
+- Book Fitness Test
+- Display FAQ's
+
+--- 
+
+
+
 ## Design 
 
 I want my site to be fun and stylish with bright colors and promote the gym to more potential members 
@@ -43,12 +75,12 @@ which had a online Color Wheel and found a hash code for a blue color that i lik
 Using the Color Wheel i found that the complimentary color for that specific blue was an orange   #FE6801
 'Complimentary colors are colors that work well together (complement each other) the are found directly opposite each other on color wheels
 
-![alt text](./assets/images/complimentry-colours.png "Complimentary colors")
 
+<img src="./assets/images/complimentry-colours.png" width="80%" alt="Complimentary colors"/>
 
 Going further i looked into the analogous colors which also work well 
 
-![alt text](./assets/images/analogous-colors.png "Analogous colors")
+<img src="./assets/images/analogous-colors.png" width="80%" alt="Analogous colors"/>
 
 Colors used:
  #FE6801  (Orange)
@@ -57,14 +89,22 @@ Colors used:
  #0119FE  (Dark Blue)
 
 
-## Logo 
-            
-Firstly i used Chat GPT to create a logo, that i was going to use in the center of the hero section
-but i decided against using the logo and also wanted to put a model button in that prime position. 
 
-![alt text](./assets/images/logo-example.png "logo example")
+## Screenshots 
 
-I decided it was better to use a logo created myself using CSS than a logo created by AI. 
+<details>
+<summary>📸 Click to View Screenshots</summary>
+
+### Mobile View  
+<img src="./assets/screenshots-readMe/Screenshot1.png" width="300" alt="Mobile"/>
+
+
+### Desktop View
+<img src="./assets/screenshots-readMe/Screenshot3.png" width="800" alt="Desktop"/>
+
+
+</details>
+
 
 
 ## Images 
@@ -163,23 +203,34 @@ Value Error : text-shadow Too many values or values are not recognized : #0197fe
 - 483.FAQ .faq-box i	
 Value Error : text-shadow Too many values or values are not recognized : #0119FE
 
-## Lighthouse
-
-Completed Lighthouse Assessment
-
-Performance 84
-Accessability 93
-Best Practices 96
-SEO 91
-
-![alt text](./assets/images/lighthouse.png "logo example")
-
-
 
 ## Bugs
 
 Large Images were causing slow page loading.
 I solved this issue using GIMP to scale and resize images to 552px width By 308px height.
+
+
+## Deployment Procedure
+This website is deployed using GitHub Pages and is accessible at:
+https://gazhird.github.io/power-house
+
+## Local Development
+If you wish to run this project locally on your machine:
+
+
+```Bash
+
+# 1. Clone the repository
+git clone https://github.com/gazhird/power-house.git
+
+# 2. Navigate to project folder
+cd power-house
+
+# 3. Open in browser
+start index.html        # Windows
+open index.html         # Mac
+
+```
 
 
 ## Used Recourses  

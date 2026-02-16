@@ -163,16 +163,26 @@ header nav .nav-item a:hover {
 }
 
 #hero .orange-box {
-    height: 70px;
-    width: 130px;
     background-color: #FE6801;
     box-shadow: 5px 5px 5px black;
     border-radius: 10px 10px;
+    display: flex;
+    align-items: center;      /* vertical center */
+    justify-content: center;  /* horizontal center */
+    height: 60px;
+    padding-left: 8px;
+    padding-right: 8px;
+
 }
+
 
 #orange-box-button a:hover {
     color: #0197fe;
     transition: 1s;
+}
+
+#orange-box-button a {
+    padding-top: 5px;
 }
 
 
@@ -240,6 +250,11 @@ header nav .nav-item a:hover {
 #discount .discount-join .button-box {
     height: 50px;
     width: 130px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     background-color: #FE6801;
     box-shadow: 5px 5px 5px black;
     border-radius: 10px 10px;
@@ -390,6 +405,13 @@ header nav .nav-item a:hover {
     background-color: #FE6801;
     border-radius: 10px 10px;
     border: 3px solid black;
+}
+
+#join button p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
 }
 
 
