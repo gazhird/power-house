@@ -200,7 +200,7 @@ I tested all links worked and navigated to the correct page.
 Tested all input fields and checked that the form submitted correctly and form validation errors displayed for empty or incorrect inputs. 
 #### Photo Carousel 
 I tested the photo carousel that all images displayed and the carousel functioned as intended.
-### collapse toggles / Dropdown / Modals
+#### collapse toggles / Dropdown / Modals
 Tested all functioning without errors.
 
 
