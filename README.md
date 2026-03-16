@@ -22,11 +22,6 @@ Completed Lighthouse Assessment
 
 
 
-
-
-
-
-
 ## Site Purpose & Value
 
 The Web Apllications purpose is to be a center for all information and updates.
@@ -190,6 +185,41 @@ Treadmill Photo: Photographer William Choquette
 
 
 ## Testing
+
+### Manual Testing Procedures
+
+Testing was done across all pages to test functionality, usability, and responsiveness.
+
+### Functionality
+
+#### Navbar 
+Checked the sticky navbar remained at the top of the screen and the navbar burger displayed and functioned correctly with smaller screens sizes.
+#### Links
+I tested all links worked and navigated to the correct page.
+#### Membership Form
+Tested all input fields and checked that the form submitted correctly and form validation errors displayed for empty or incorrect inputs. 
+#### Photo Carousel 
+I tested the photo carousel that all images displayed and the carousel functioned as intended.
+### collapse toggles / Dropdown / Modals
+Tested all functioning without errors.
+
+
+### Usability
+The Power House website has been designed with the primary focus on its userbility.
+key features include.
+#### Sticky Navbar
+allowing users to navaigate to other pages without haveing to scroll up.
+#### Bootstrap's collapse/dropdowns 
+These features keeps additional content out of sight unless wanted.
+#### Photo Carousel
+This features layers the images to save screen space and is more interactive for the users.
+
+### Responsiveness
+This site is fully resonsive to suit most typical screen sizes, with planned format and sturctural changes.
+Tested with Chrome DevTools and also multiple devices, for example my Desktop computer, Laptop, Tablet and Samsung S20 mobile.
+
+
+### Validation Testing
 
 Home / Index Page
 
