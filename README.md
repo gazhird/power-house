@@ -42,8 +42,56 @@ The main key features are:
 - Book Fitness Test
 - Display FAQ's
 
---- 
 
+
+## User Stories
+
+These user stories are what a member of the public would expect from using this gym website.
+
+### New Member
+"As a potential new member, I want to easily find the membership cost and sign up online" 
+
+<details>
+<summary>📸 Click to View Screenshots</summary>
+
+### Membership pricing   
+<img src="./assets/screenshots-readMe/US1.png" width="800" alt="Memebership price"/>
+
+
+### Membership form
+<img src="./assets/screenshots-readMe/US1-2.png" width="800" alt="Memebership form"/>
+
+</details>
+
+### View Facilities
+"I want to look at the gym facilities, before joining" 
+
+<details>
+<summary>📸 Click to View Screenshots</summary>
+
+### Facilities Information   
+<img src="./assets/screenshots-readMe/US2.png" width="800" alt="Facilitites Information"/>
+
+
+### Facilities Photo Carousel
+<img src="./assets/screenshots-readMe/US2-2.png" width="800" alt="Facilitties photo"/>
+
+</details>
+
+
+### Checking Class Times
+"As a member, i want to quickly view fitness class timetables"
+
+<details>
+<summary>📸 Click to View Screenshots</summary>
+
+### Class Times Section   
+<img src="./assets/screenshots-readMe/US3.png" width="800" alt="Class Times section"/>
+
+### Daily Class Times   
+<img src="./assets/screenshots-readMe/US3-2.png" width="800" alt="Daily Class Times"/>
+
+</details>
 
 
 ## Design 
